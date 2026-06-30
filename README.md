@@ -61,6 +61,5 @@ It is used to handle cases such as:
 - GitHub
 ## Author
 Abdelrahman Eltabaa
-Abdelrahman Eltabaa
 Computer Engineering Graduate
 Tanta University
