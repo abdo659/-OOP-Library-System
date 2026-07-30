@@ -1,62 +1,127 @@
-# OOP Library Lending System
+# 📚 OOP Library Management System
 
-## Project Description
+A console-based **Library Management System** developed in **Java** using **Object-Oriented Programming (OOP)** principles. This project demonstrates clean code practices, modular design, and the application of core OOP concepts through a real-world library management scenario.
 
-This project is a console-based Library Lending System developed using Java and Object-Oriented Programming (OOP) concepts.
+---
 
-The system allows librarians to manage library items, members, borrowing, and returning operations through a simple menu-driven interface.
+## 📖 Project Overview
 
-## Features
+The OOP Library Management System is designed to simulate the basic operations of a library. It allows users to manage books, members, and borrowing operations while applying Java programming fundamentals and object-oriented design principles.
 
-- Add Books, Magazines, and DVDs
-- Register new Members
-- Borrow library items
-- Return borrowed items
-- List all library items
-- Search items by title
-- Show available items only
-- Generate library report
-- Exception handling for invalid operations
-- Input validation
+This project was built to strengthen my understanding of Java and OOP by implementing a practical application with a structured and maintainable architecture.
 
-## OOP Concepts Used
+---
 
+## ✨ Features
+
+- 📚 Add new books
+- 📖 Display all available books
+- 🔍 Search books
+- 👤 Manage library members
+- 📕 Borrow books
+- 📗 Return books
+- ✅ Input validation
+- 🏗️ Object-Oriented architecture
+
+---
+
+## 🛠️ Technologies Used
+
+- Java
+- Object-Oriented Programming (OOP)
+- IntelliJ IDEA
+- Git & GitHub
+
+---
+
+## 🎯 OOP Concepts Applied
+
+- Classes & Objects
 - Encapsulation
 - Inheritance
-- Abstraction
 - Polymorphism
+- Abstraction
+- Constructors
+- Method Overloading
+- Method Overriding
+- Access Modifiers
+- Collections Framework
+- Exception Handling
 
-## Collections Used
+---
 
-- HashMap
-- HashSet
-- ArrayList
+## 📂 Project Structure
 
-## Custom Exception
+```text
+src
+├── Main.java
+├── Models/
+├── Services/
+├── Utils/
+└── Exceptions/
+```
 
-The project includes a custom exception:
+> *Update the structure above to match your actual project folders.*
 
-- LibraryException
+---
 
-It is used to handle cases such as:
-- Member not found
-- Item not found
-- Item already borrowed
-- Borrow limit exceeded
-- Returning an item that was not borrowed
-## Loan Periods
-| Item Type | Loan Period |
-|-----------|-------------|
-| Book | 21 Days |
-| Magazine | 7 Days |
-| DVD | 3 Days |
-## Bonus Features
-- Search item by title
-- Show available items only
-- Statistics by item type
-## Technologies
-- Java
-- IntelliJ IDEA
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/abdo659/OOP-Library-System.git
+```
+
+### Open the project
+
+Open the project using **IntelliJ IDEA** (or any Java IDE).
+
+### Run
+
+Execute the `Main.java` file to start the application.
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I practiced:
+
+- Applying Object-Oriented Programming principles
+- Writing clean and maintainable Java code
+- Designing reusable classes
+- Managing relationships between objects
+- Structuring medium-sized Java applications
+
+---
+
+## 🚀 Future Enhancements
+
+- Database integration (MySQL)
+- File persistence
+- GUI using JavaFX
+- Admin authentication
+- Book categories
+- Fine calculation
+- Reservation system
+
+---
+
+## 👨‍💻 Author
+
+**Abdelrahman Eltabaa**
+
+Software QA Engineer | ISTQB® CTFL v4 Certified | Computer Engineering Graduate
+
+### Connect with Me
+
+- GitHub: https://github.com/abdo659
+- LinkedIn: https://www.linkedin.com/in/abdelrahman-eltabaa
+- Portfolio: https://abdelrahman-eltabaa.vercel.app
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star**.
 - Git
 - GitHub
 ## Author
